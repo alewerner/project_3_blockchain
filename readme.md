@@ -1,6 +1,6 @@
-# Project Title
+# Project 3 - Blockchain Udacity Course
 
-This project is the third in Udacity Blockchai course. The challenge here is to build a RESTful web API using a Node.js framwork that will interface with our private BlockChain.
+This project is the third in Udacity Blockchai course. The challenge is to build a RESTful web API using a Node.js framwork that will interface with our private BlockChain.
 
 ## Getting Started
 
@@ -11,30 +11,31 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-Give examples
+npm install
 ```
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+Just run the app on the comand line like this
 
 ```
-Give the example
-```
-
-And repeat
+nodejs index.js
 
 ```
-until finished
+
+And will show this
+
 ```
-
-
+Listening on port8000
+```
 
 ## Endpoints
 
-GET Block Endpoint
+For better test, I recomend use Postman to test this RESTful app, but you can use curl too.
+
+###GET Block Endpoint
 
 GET Block Endpoint
 Configure a GET request using URL path with a block height parameter. The response for the endpoint should provide block object is JSON format.
@@ -44,6 +45,8 @@ http://localhost:8000/block/[blockheight]
 
 Example URL path:
 http://localhost:8000/block/0, where '0' is the block height.
+
+![Test Image 1](curl_example.jpeg)
 
 Response
 The response for the endpoint should provide block object is JSON format.
@@ -59,7 +62,7 @@ accept-ranges: bytes
 Connection: close          
 {"hash":"49cce61ec3e6ae664514d5fa5722d86069cf981318fc303750ce66032d0acff3","height":0,"body":"First block in the chain - Genesis block","time":"1530311457","previousBlockHash":""}
 ```
-POST Block Endpoint
+###POST Block Endpoint
 
 Post a new block with data payload option to add data to the block body. The block body should support a string of text. The response for the endpoint should provide block object in JSON format.
 
