@@ -14,6 +14,16 @@ What things you need to install the software and how to install them
 npm install
 ```
 
+Framework used: 
+
+```
+Express.js
+
+```
+Project Requirements:
+
+https://review.udacity.com/#!/rubrics/1707/view
+
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
@@ -35,7 +45,7 @@ Listening on port8000
 
 For better test, I recomend use Postman to test this RESTful app, but you can use curl too.
 
-###GET Block Endpoint
+### GET Block Endpoint
 
 GET Block Endpoint
 Configure a GET request using URL path with a block height parameter. The response for the endpoint should provide block object is JSON format.
@@ -62,7 +72,7 @@ accept-ranges: bytes
 Connection: close          
 {"hash":"49cce61ec3e6ae664514d5fa5722d86069cf981318fc303750ce66032d0acff3","height":0,"body":"First block in the chain - Genesis block","time":"1530311457","previousBlockHash":""}
 ```
-###POST Block Endpoint
+### POST Block Endpoint
 
 Post a new block with data payload option to add data to the block body. The block body should support a string of text. The response for the endpoint should provide block object in JSON format.
 
@@ -82,10 +92,10 @@ Connection: close
 
 ## Built With - Sources I research for this project:
 
-* [javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await) - Await
-* [Javascript](https://www.promisejs.org/) - Promises
+* [Await/javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await) - Await
+* [Promises/Javascript](https://www.promisejs.org/) - Promises
 * [Javascript](http://eloquentjavascript.net/) - Javascript
 * [BlockChain](https://github.com/nimish-jose/blockchainnd/blob/master/Project_2/simpleChain.js) - used to see how a full blockchain_project working
 diference between var and let
-* [javascript](https://codeburst.io/asynchronous-code-inside-an-array-loop-c5d704006c99) - var and let
-* [javascript](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75) - var and let
+* [VarLet/javascript](https://codeburst.io/asynchronous-code-inside-an-array-loop-c5d704006c99) - var and let
+* [VarLet/javascript](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75) - var and let
