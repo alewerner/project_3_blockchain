@@ -77,7 +77,8 @@ The response for the endpoint should provide block object in JSON format.
 Example POST response
 For URL: http://localhost:8000/block
 
-```curl -X "POST" "http://localhost:8000/block" -H 'Content-Type: application/json' -d $'{"body":"block body contents for blockchain"}'
+```
+curl -X "POST" "http://localhost:8000/block" -H 'Content-Type: application/json' -d $'{"body":"block body contents for blockchain"}'
 ```
 
 ## Built With - Sources I research for this project:
